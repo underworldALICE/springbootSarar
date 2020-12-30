@@ -1,11 +1,9 @@
 package com.underworld.pojo;
 
-import lombok.Data;
 
 import java.util.Date;
 
 //员工表
-@Data
 public class Employee{
 
     private Integer id;

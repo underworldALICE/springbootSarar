@@ -1,11 +1,8 @@
 package com.underworld.pojo;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 //部门表
-@Data
 public class Department {
 
     private Integer id;
