@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>HelloWorld</h1>
+    <div th:text="${user}"></div>
+    <div th:utext="${user}"></div>
+
+    <hr>
+
+    <h3 th:each="yuser:${users}" th:text="${yuser}"></h3><!--遍历出来的每一个元素-->
+</body>
+</html>
